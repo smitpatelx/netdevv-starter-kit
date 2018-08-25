@@ -2,7 +2,7 @@
 
 * CURRENT VERSION : 0.5.1
 * DEV VERSION: 1.0.0
-## Freatures::
+## Features::
 * Smoot Workflow.
 * Fully Customizable.
 * Browser Sync Support.
