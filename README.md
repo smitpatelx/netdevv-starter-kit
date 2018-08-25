@@ -10,4 +10,4 @@
 *     npm install
 *     gupl build
 *     gulp serve
-* Open any browser and go to [localhost:5050](localhost:5050)
+* Open any browser and go to [localhost port 5050](http://localhost:5050)
