@@ -2,8 +2,15 @@
 
 * CURRENT VERSION : 0.5.1
 * DEV VERSION: 1.0.0
+## Freatures::
+* Smoot Workflow
+* Fully Customizable
+* Browser Sync Support
+* SASS compiler
+* JS and SASS minifier
+* WATCH mode inbuild
 
-## Installation Process::
+### Installation Process::
 * Install node js on your computer globally
 *     git clone https://github.com/smitpatelx/netdevv-dist.git project01
 *     cd project01
@@ -13,7 +20,7 @@
 * Open any browser and go to [localhost port 5050](http://localhost:5050)
 
 
-## File Structure::
+### File Structure::
 		(master)
 		├───dist
 		├───package.json
