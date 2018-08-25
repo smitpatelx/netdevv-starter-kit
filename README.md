@@ -3,12 +3,13 @@
 * CURRENT VERSION : 0.5.1
 * DEV VERSION: 1.0.0
 ## Freatures::
-* Smoot Workflow
-* Fully Customizable
-* Browser Sync Support
-* SASS compiler
-* JS and SASS minifier
-* WATCH mode inbuild
+* Smoot Workflow.
+* Fully Customizable.
+* Browser Sync Support.
+* SASS compiler.
+* JS and SASS minifier.
+* WATCH mode inbuild.
+* Bootstrap, Foundation, Jquery, Splitting JS and many more libraries built in.
 
 ### Installation Process::
 * Install node js on your computer globally
