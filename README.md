@@ -8,7 +8,7 @@
 *     git clone https://github.com/smitpatelx/netdevv-dist.git project01
 *     cd project01
 *     npm install
-*     gupl build
+*     gulp build
 *     gulp serve
 * Open any browser and go to [localhost port 5050](http://localhost:5050)
 
