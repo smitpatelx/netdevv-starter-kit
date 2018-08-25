@@ -5,4 +5,9 @@
 
 ## Installation Process::
 * Install node js on your computer globally
-* ` git clone https://github.com/smitpatelx/netdevv-dist.git
+*     git clone https://github.com/smitpatelx/netdevv-dist.git project01
+*     cd project01
+*     npm install
+*     gupl build
+*     gulp serve
+* Open any browser and go to [localhost:5050](localhost:5050)
