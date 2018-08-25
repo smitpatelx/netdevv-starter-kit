@@ -17,7 +17,6 @@
 *     npm install --global gulp-cli
 *     git clone https://github.com/smitpatelx/netdevv-dist.git project01
 *     cd project01
-*     npm install --save-dev gulp
 *     npm install
 *     gulp build
 *     gulp serve
