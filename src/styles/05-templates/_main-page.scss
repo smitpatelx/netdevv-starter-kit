@@ -1,0 +1,18 @@
+@import url('https://fonts.googleapis.com/css?family=Alegreya|Alegreya+Sans|Arima+Madurai|Dosis|Quattrocento+Sans|Quicksand|Raleway|Roboto+Mono');
+
+body {
+    font-family: 'Dosis';
+    font-size: 1.2rem;
+}
+
+a {
+    color: rgb(159, 56, 219);
+    transition: all 1s;
+
+    &:hover {
+        font-weight: 400;
+        letter-spacing: 3px;
+        color: rgb(38, 0, 255);
+        transition:all 0.5s;
+    }
+}

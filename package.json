@@ -1,0 +1,32 @@
+{
+  "name": "netdevv",
+  "version": "1.0.0",
+  "description": "This is netdevv development project.",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/smitpatelx/netdevv-dist.git"
+  },
+  "keywords": [
+    "netdevv-dist"
+  ],
+  "author": "Smit Patel",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/smitpatelx/netdevv-dist/issues"
+  },
+  "homepage": "https://github.com/smitpatelx/netdevv-dist#readme",
+  "devDependencies": {
+    "browser-sync": "^2.24.6",
+    "chalk-animation": "^1.6.0",
+    "gulp": "^3.9.1",
+    "gulp-concat": "^2.6.1",
+    "gulp-sass": "^4.0.1",
+    "gulp-uglify": "^3.0.1",
+    "pump": "^3.0.0"
+  },
+  "dependencies": {}
+}
