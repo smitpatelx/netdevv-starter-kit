@@ -44,12 +44,14 @@
 		    │   └───vendors
 		    │       ├───bootstrap
 		    │       ├───foundation
+		    │       ├───materialize
 		    │       ├───jquery
 		    │       └───splitting
 		    ├───styles
 		    │   ├───00-plugins
 		    │   │   ├───bootstrap
 		    │   │   ├───foundation
+		    │   │   ├───materialize
 		    │   │   └───splitting
 		    │   ├───01-helpers
 		    │   ├───02-base
