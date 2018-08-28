@@ -1,0 +1,56 @@
+.footer-made-by {
+    font-size: 1.2rem;
+    letter-spacing: 1px;
+    word-spacing: 1px;
+    a {
+        font-size: 1.3rem;
+        color: rgb(216, 32, 32);
+        transition:all 1s;
+    }
+
+    a:hover {
+        color: rgb(0, 0, 0);
+        transition:all 1s;
+    }
+}
+
+@media (min-width: 992px) { 
+    .footer-made-by {
+        font-size: 1.2rem;
+        letter-spacing: 1px;
+        word-spacing: 1px;
+        a {
+            font-size: 1.3rem;
+            color: rgb(241, 31, 31);
+            transition:all 1s;
+        }
+
+        a:hover {
+            color: rgb(0, 0, 0);
+            transition:all 1s;
+        }
+    }
+
+}
+.support-project {
+    color: rgb(202, 40, 0);
+    transition: all 1s;
+
+    i span {
+        font-family: 'Dosis';
+        margin:10px;
+        letter-spacing: 1px;
+        font-size: 1.2rem;
+        transition: letter-spacing 1s;
+
+        &:hover {
+            letter-spacing: 3px;
+            transition: letter-spacing 1s;
+        }
+    }
+
+    &:hover {
+        color:#fff;
+        transition: all 1s;
+    }
+}

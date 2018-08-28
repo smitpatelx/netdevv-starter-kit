@@ -1,1 +1,86 @@
 @import 'splitting-animation';
+@import 'bootstrap-essential';
+
+.h1 {font-size:4rem}
+.h2 {font-size:3.5rem}
+.h3 {font-size:3rem}
+.h4 {font-size:2.5rem}
+.h5 {font-size:2rem}
+.h6 {font-size:1.5rem}
+.hp {font-size:1.2rem}
+
+@media (min-width: 1200px) {
+    .h1 {font-size:4rem}
+    .h2 {font-size:3.5rem}
+    .h3 {font-size:3rem}
+    .h4 {font-size:2.5rem}
+    .h5 {font-size:2rem}
+    .h6 {font-size:1.5rem}
+    .hp {font-size:1rem}
+}
+
+@media (min-width: 992px) {
+    .h1 {font-size:4rem}
+    .h2 {font-size:3.5rem}
+    .h3 {font-size:3rem}
+    .h4 {font-size:2.5rem}
+    .h5 {font-size:2rem}
+    .h6 {font-size:1.5rem}
+    .hp {font-size:1rem}
+}
+
+@media (min-width: 768px) {
+    .h1 {font-size:4rem}
+    .h2 {font-size:3.5rem}
+    .h3 {font-size:3rem}
+    .h4 {font-size:2.5rem}
+    .h5 {font-size:2rem}
+    .h6 {font-size:1.5rem}
+    .hp {font-size:1rem}
+}
+
+@media (min-width: 576px) {
+    .h1 {font-size:4rem}
+    .h2 {font-size:3.5rem}
+    .h3 {font-size:3rem}
+    .h4 {font-size:2.5rem}
+    .h5 {font-size:2rem}
+    .h6 {font-size:1.5rem}
+    .hp {font-size:1rem}
+}
+
+.hover-btn:hover {
+    transition: all 1s;
+    filter: brightness(90%) !important;
+}
+
+.card-main-page {
+    position: relative;
+    overflow: hidden;
+   /* Permalink - use to edit and share this gradient: http://colorzilla.com/gradient-editor/#6100f4+0,a939ff+100 */
+    background: #6100f4; /* Old browsers */
+    background: -moz-linear-gradient(top, #6100f4 0%, #a939ff 100%); /* FF3.6-15 */
+    background: -webkit-linear-gradient(top, #6100f4 0%,#a939ff 100%); /* Chrome10-25,Safari5.1-6 */
+    background: linear-gradient(to bottom, #6100f4 0%,#a939ff 100%); /* W3C, IE10+, FF16+, Chrome26+, Opera12+, Safari7+ */
+    filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#6100f4', endColorstr='#a939ff',GradientType=0 ); /* IE6-9 */
+    border-radius: 10px;
+}
+// .card-arrow-anim {
+//     margin-top:0px;
+//     animation-name:card-arow-up-down;
+//     animation-duration: 2s;
+//     animation-direction: alternate;
+//     animation-iteration-count: infinite;
+//     animation-delay: 1s;  
+//     transition: 1s;
+// }
+
+// @keyframes card-arow-up-down {
+//     0% {
+//         margin-top:0px !important;
+//     }
+
+//     100% {
+//         margin-top:10px !important;
+//     }
+// }

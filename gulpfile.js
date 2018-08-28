@@ -7,6 +7,16 @@ const uglify = require('gulp-uglify');
 const pump = require('pump');
 const sass = require('gulp-sass');  //npm install gulp-sass --save-dev
 
+
+// PATHS JS Libraries
+const jqueryLib = "src/scripts/vendors/jquery/**.js";
+const bootstrapLib = "src/scripts/vendors/bootstrap/bootstrap.bundle.min.js";
+const foundationLib = "src/scripts/vendors/foundation/**.js";
+const materializeLib = "src/scripts/vendors/materialize/js/bin/materialize.js";
+const parallaxLib = "src/scripts/vendors/parallax/parallax.min.js";
+const splittingLib = "src/scripts/vendors/splitting/**.js";
+const customLib = "src/scripts/*.js";
+
 var consoleLogComp ='Process Completed .... \n Distribution Version:@gulp-netdevv-development \n Contact: https://www.netdevv.com';
 // Logs Message
 gulp.task('message', function () {
@@ -30,7 +40,7 @@ gulp.task('sass', function () {
 
 // Scripts
 gulp.task('script', function () {
-    gulp.src(['src/scripts/vendors/jquery/**.js', 'src/scripts/vendors/foundation/**.js', 'src/scripts/vendors/splitting/**.js', 'src/scripts/*.js'])
+    gulp.src(['src/scripts/vendors/jquery/**.js', 'src/scripts/vendors/materialize/js/bin/materialize.js', 'src/scripts/vendors/splitting/**.js', 'src/scripts/*.js'])
         .pipe(concat('main.js'))
         .pipe(uglify())
         .pipe(gulp.dest('dist/scripts/'))

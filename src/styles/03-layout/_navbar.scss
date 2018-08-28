@@ -1,14 +1,20 @@
+.icon-block {
+  padding: 0 15px;
+}
+.icon-block .material-icons {
+	font-size: inherit;
+}
 
 .nav-bar-site-logo {
-    width:5vw;
-    height:5vw;
-    margin:0;
-    padding:0;
+  width:60px;
+  height:60px;
+  cursor: pointer;
 }
 
 .nav-bar-site-text {
-    font-size: 2.5vw;
-    margin:auto 0;
-    font-family: 'dosis';
-    font-weight: 800;
+  overflow: hidden;
+  font-weight: 600;
+  letter-spacing: 10px;
+  margin:10px 10px auto 10px;
+  vertical-align: middle;
 }

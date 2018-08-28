@@ -1,0 +1,34 @@
+
+.features-wrapper {
+    border-radius: 10px;
+    background: #fff;
+    -webkit-clip-path: polygon(10% 0, 90% 0, 100% 10%, 100% 91%, 91% 100%, 10% 100%, 0 92%, 0 10%);
+    clip-path: polygon(10% 0, 90% 0, 100% 10%, 100% 91%, 91% 100%, 10% 100%, 0 92%, 0 10%);
+}
+
+.fearures-list {
+    display: grid;
+    border-radius: 10px;
+}
+.fearures-list-item{
+    display: block;
+    background: rgba(158, 0, 0, 0);
+    color: rgb(168, 14, 168);
+    border: 2px solid transparent;
+    text-align: center;
+    font-weight: 600;
+}
+
+.fearures-list-item {
+    background: rgba(255, 255, 255, 0);
+}
+
+.child-list {
+    margin:1em 0 1em 0;
+    text-align: center;
+    font-weight: 0;
+}
+
+.child-list li {
+    
+}

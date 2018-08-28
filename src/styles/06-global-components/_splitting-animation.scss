@@ -393,7 +393,7 @@
 .zip-it,
 .split-it {
 
-  .char { color: rgb(1, 99, 226); } //rgba(0,0,0,0.4); }
+  .char { color: rgb(0, 81, 134); } //rgba(0,0,0,0.4); }
 
   .char,
   .char:before,
@@ -405,7 +405,7 @@
   .char:before,
   .char:after {
       visibility: visible;
-    color: rgb(0, 0, 0);
+    color: rgb(255, 255, 255);
   }
 
   .char:before {
