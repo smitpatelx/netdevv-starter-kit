@@ -3,17 +3,28 @@
 * CURRENT VERSION : 1.0.0
 * DEV VERSION: 2.0.0
 
-## Installation Process::
+## Features::
+* Smoot Workflow.
+* Fully Customizable.
+* GULP task manager
+* Browser Sync Support.
+* SASS compiler.
+* JS and SASS minifier.
+* WATCH mode inbuild.
+* Bootstrap, Foundation, Jquery, Splitting JS and many more libraries built in.
+
+### Installation Process::
 * Install node js on your computer globally
+*     npm install --global gulp-cli
 *     git clone https://github.com/smitpatelx/netdevv-dist.git project01
 *     cd project01
 *     npm install
-*     gupl build
+*     gulp build
 *     gulp serve
 * Open any browser and go to [localhost port 5050](http://localhost:5050)
 
 
-## File Structure::
+### File Structure::
 		(master)
 		├───dist
 		├───package.json
