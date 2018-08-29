@@ -6,6 +6,8 @@
 ## DEMO::
 * [DEMO](http://starterkit.netdevv.com "Netdevv Starter Kit")
 
+![alt text](../demo-img.PNG "DEMO")
+
 ## Features::
 * Smoot Workflow.
 * Fully Customizable.
