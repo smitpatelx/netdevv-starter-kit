@@ -6,7 +6,7 @@
 ## DEMO::
 * [DEMO](http://starterkit.netdevv.com "Netdevv Starter Kit")
 
-![alt text](../demo-img.PNG "DEMO")
+![alt text](https://github.com/smitpatelx/netdevv-dist/demo-img.PNG "DEMO")
 
 ## Features::
 * Smoot Workflow.
