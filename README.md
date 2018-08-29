@@ -1,6 +1,6 @@
 # This is Design Distribution Version of [NETDEVV.COM](https://www.netdevv.com)
 
-* CURRENT VERSION : 1.0.0
+* CURRENT VERSION : 1.1.0
 * DEV VERSION: 2.0.0
 
 ## DEMO::
@@ -18,14 +18,19 @@
 
 ### Installation Process::
 * Install node js on your computer globally
+```npm
 *     npm install --global gulp-cli
 *     git clone https://github.com/smitpatelx/netdevv-dist.git project01
 *     cd project01
 *     npm install
-*     gulp build
 *     gulp serve
+```
 * Open any browser and go to [localhost port 5050](http://localhost:5050)
 
+## Usage::
+* You can paste any vendors file into ```"src/scripts/vendors/"``` directory.
+* Custom scripts should be in ```"src/scripts/"``` directory.
+* You can also use ```gulp watch```  command to start browser sync without build process. (Not Recomended)
 
 ### File Structure::
 		(master)

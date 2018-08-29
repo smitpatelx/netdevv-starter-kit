@@ -24,8 +24,11 @@
     "chalk-animation": "^1.6.0",
     "gulp": "^3.9.1",
     "gulp-concat": "^2.6.1",
+    "gulp-plumber": "^1.2.0",
+    "gulp-rename": "^1.4.0",
     "gulp-sass": "^4.0.1",
     "gulp-uglify": "^3.0.1",
+    "gulp-uglify-es": "^1.0.4",
     "pump": "^3.0.0"
   },
   "dependencies": {}
