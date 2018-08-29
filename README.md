@@ -1,10 +1,10 @@
-# This is Design Distribution Version of [NETDEVV.COM](https://www.netdevv.com)
+# This is Design Distribution Version of [NETDEVV.COM](https://www.netdevv.com "Netdevv.com")
 
 * CURRENT VERSION : 1.1.0
 * DEV VERSION: 2.0.0
 
 ## DEMO::
-* http://starterkit.netdevv.com
+* [DEMO](http://starterkit.netdevv.com "Netdevv Starter Kit")
 
 ## Features::
 * Smoot Workflow.
@@ -25,7 +25,7 @@
 *     npm install
 *     gulp serve
 ```
-* Open any browser and go to [localhost port 5050](http://localhost:5050)
+* Open any browser and go to [localhost port 5050](http://localhost:5050 "BROWSER SYNC")
 
 ## Usage::
 * You can paste any vendors file into ```"src/scripts/vendors/"``` directory.
