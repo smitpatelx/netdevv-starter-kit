@@ -9,7 +9,7 @@
 ![alt text](https://github.com/smitpatelx/netdevv-dist/blob/master/demo-img.PNG "DEMO")
 
 ## Features::
-* Smoot Workflow.
+* Smooth Workflow.
 * Fully Customizable.
 * GULP task manager
 * Browser Sync Support.
