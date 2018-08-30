@@ -22,7 +22,7 @@
 * Install node js on your computer globally
 ```npm
 *     npm install --global gulp-cli
-*     git clone https://github.com/smitpatelx/netdevv-dist.git project01
+*     git clone https://github.com/smitpatelx/netdevv-starter-kit.git project01
 *     cd project01
 *     npm install
 *     gulp serve
