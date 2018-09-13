@@ -14,3 +14,40 @@
     overflow: visible;
     position: relative;
 }
+
+.section-main-page {
+    position: auto;
+    overflow: hidden;
+    display: block;
+    }
+
+@media only screen and (max-width:430px) {
+    .section-main-page {
+    height:140em;
+    }
+}
+
+@media only screen and (min-width:430px) {
+    .section-main-page {
+    height:130em;
+    }
+}
+
+
+@media only screen and (min-width:680px) {
+    .section-main-page {
+    height:100em;
+    }
+}
+
+@media only screen and (min-width:900px) {
+    .section-main-page {
+    height:100em;
+    }
+}
+
+@media only screen and (min-width:1200px) {
+    .section-main-page {
+    height:85em;
+    }
+}

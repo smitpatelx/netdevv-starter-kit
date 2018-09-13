@@ -12,7 +12,7 @@ const sass = require('gulp-sass');  //npm install gulp-sass --save-dev
 
 
 // PATHS JS Libraries
-var styleSrc = 'src/styles/**/*.sass',
+var styleSrc = 'src/styles/**',
     styleDist = 'dist/styles/',
     viewsSrc = 'src/views/**',
     viewDist = 'dist/',

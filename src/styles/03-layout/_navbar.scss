@@ -5,6 +5,11 @@
 	font-size: inherit;
 }
 
+.nav-mobile-text {
+  font-size:1.2rem;
+  letter-spacing: 2px;
+}
+
 .nav-bar-site-logo {
   width:60px;
   height:60px;
@@ -15,6 +20,62 @@
   overflow: hidden;
   font-weight: 600;
   letter-spacing: 10px;
-  margin:10px 10px auto 10px;
   vertical-align: middle;
+}
+
+.brand-logo-s {
+    display: inline-block;
+    vertical-align: middle;
+    text-align: center;
+  }
+
+@media only screen and (max-width:430px) {
+    .brand-logo-s {
+    width:200px;
+  }
+  .nav-bar-site-text {
+    font-size:1.6rem;
+    margin:15px 0px auto 35px;
+  }
+}
+
+@media only screen and (min-width:430px) {
+    .brand-logo-s {
+    width:220px;
+  }
+  .nav-bar-site-text {
+    font-size:2rem;
+    margin:15px 0px auto 20px;
+  }
+}
+
+
+@media only screen and (min-width:680px) {
+    .brand-logo-s {
+    width:220px;
+  }
+  .nav-bar-site-text {
+    font-size:2rem;
+    margin:15px 10px auto 20px;
+  }
+}
+
+@media only screen and (min-width:900px) {
+    .brand-logo-s {
+    width:240px;
+  }
+  .nav-bar-site-text {
+    font-size:2.2rem;
+    margin:15px 10px auto 20px;
+  }
+}
+
+@media only screen and (min-width:1200px) {
+  .brand-logo-s {
+    width:240px;
+  }
+  .nav-bar-site-text {
+    font-size:2.2rem;
+    margin:15px 10px auto 20px;
+  }
 }
