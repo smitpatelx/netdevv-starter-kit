@@ -1,6 +1,6 @@
 # This is Design Distribution Version of [NETDEVV.COM](https://www.netdevv.com "Netdevv.com")
 
-* CURRENT VERSION : 1.1.1
+* CURRENT VERSION : 1.1.2
 * DEV VERSION: 2.0.0
 
 ## DEMO::

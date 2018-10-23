@@ -1,10 +1,11 @@
 {
   "name": "netdevv",
-  "version": "1.0.0",
+  "version": "1.1.2",
   "description": "This is netdevv development project.",
   "main": "index.js",
   "scripts": {
-    "test": "echo \"Error: no test specified\" && exit 1"
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "start": "gulp serve"
   },
   "repository": {
     "type": "git",
@@ -20,15 +21,16 @@
   },
   "homepage": "https://github.com/smitpatelx/netdevv-dist#readme",
   "devDependencies": {
-    "browser-sync": "^2.24.6",
+    "browser-sync": "^2.26.3",
     "chalk-animation": "^1.6.0",
-    "gulp": "^3.9.1",
+    "gulp": "^4.0.0",
     "gulp-concat": "^2.6.1",
     "gulp-plumber": "^1.2.0",
     "gulp-rename": "^1.4.0",
-    "gulp-sass": "^4.0.1",
+    "gulp-sass": "^4.0.2",
     "gulp-uglify": "^3.0.1",
     "gulp-uglify-es": "^1.0.4",
+    "minimatch": "^3.0.4",
     "pump": "^3.0.0"
   },
   "dependencies": {}

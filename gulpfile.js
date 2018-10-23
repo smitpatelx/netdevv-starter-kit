@@ -70,24 +70,28 @@ gulp.task('vendors', function () {
         .pipe(browserSync.stream());
 });
 
-// Static Server + watching scss/html files
-gulp.task('watch', function () {
-
-    browserSync.init({
+function watchf () {
+    return browserSync.init({
         server: { baseDir: "./dist/" },
         port: 5050, //you can change port here
         ui: { port: 5051 }, //both ports should be different
         notify: false
-    });
+    }),
 
-    gulp.watch(styleSrc, ['sass']);
-    gulp.watch(vendorsSrc, ['vendors']);
-    gulp.watch(scriptSrc, ['script']);
-    gulp.watch(viewsSrc, ['view']);
-    gulp.watch('./dist/**').on('change', browserSync.reload);
-});
+    gulp.watch(styleSrc, gulp.series('sass')),
+    gulp.watch(vendorsSrc, gulp.series('vendors')),
+    gulp.watch(scriptSrc, gulp.series('script')),
+    gulp.watch(viewsSrc, gulp.series('view')),
+    gulp.watch('./dist/**').on('change', browserSync.reload)
+}
 
-gulp.task('serve', ['message','sass', 'script', 'vendors', 'watch'], function () { });
+exports.watchf = watchf;
+// Static Server + watching scss/html files
+gulp.task('watch', watchf);
+
+gulp.task('serve', gulp.series(gulp.parallel('message','sass', 'script', 'vendors', 'watch'), function () { 
+    //Task
+}));
 
 // gulp.task('build', [ 'view', 'sass', 'vendors', 'script']);
 
